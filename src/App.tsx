@@ -1,12 +1,8 @@
-import "./App.css";
-import VideoChat from "./VideoChat";
+import React from "react";
+import VideoCall from "./VideoChat";
 
-function App() {
-  return (
-    <div className="App">
-      <VideoChat />
-    </div>
-  );
-}
+const App: React.FC = () => {
+  return <VideoCall />;
+};
 
 export default App;
